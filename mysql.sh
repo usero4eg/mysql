@@ -8,5 +8,6 @@ create database nextcloud_db;
 #        grant all privileges on grafana_db.* to 'zabbix_us'@'localhost' with grant option;
 # mysql> create user 'nextcloud_us'@'localhost' identified by 'nextcloud_pw;
 #        grant all privileges on nextcloud_db.* to 'nextcloud_us'@'localhost' with grant option;
+docker login --username=dirtygambrinus
 docker tag <containter_id/image_id> dirtygambrinus/<container_id/image_id>
 docker push dirtygambrinus/<container_id/image_id>
